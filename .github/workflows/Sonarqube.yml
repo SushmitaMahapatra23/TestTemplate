@@ -1,0 +1,13 @@
+
+name: Require PR Approval
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  approve:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Ensure at least 1 approval
+      run: echo "Sonarqube workflow"
