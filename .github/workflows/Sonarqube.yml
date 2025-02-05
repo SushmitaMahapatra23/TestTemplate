@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Ensure at least 1 approval
-      run: echo "Sonarqube workflow"
+      run: echo "Sonarqube workflow
